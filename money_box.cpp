@@ -106,7 +106,7 @@ void loop() {
     delay(500);
     lcd.init();
     lcd.clear();
-    lcd.setCursor(0, 0); lcd.print(L"To the yacht");
+    lcd.setCursor(0, 0); lcd.print(L"Lamborghini");
     lcd.setCursor(0, 1); lcd.print(totalMoney);
     lcd.setCursor(13, 1); lcd.print(currency);
     emptySignal = analogRead(IR_SENSOR);
